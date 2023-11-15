@@ -1,0 +1,25 @@
+---
+import LibraryIcon from "../icons/Library.astro"
+import HomeIcon from "../icons/Home.astro"
+import SearchIcon from "../icons/Search.astro"
+---
+<LibraryIcon />
+
+<nav class="fkex fkex-col flex-1 gap-2">
+    <div class="bg-zinc-900 rounded-lg p-2">
+        <ul>
+            <li class="flex items-center gap-2">
+                <HomeIcon />
+                <span>Home</span>
+            </li>
+            <li class="flex items-center gap-2">
+                <SearchIcon />
+                <span>Search</span>
+            </li>
+            <li class="flex items-center gap-2">
+                <LibraryIcon />
+                <span>Your Library</span>
+            </li>
+        </ul>
+    </div>
+</nav>
